@@ -1,1 +1,31 @@
+Day 1 Notes :
+Compiler : It is a program that translates source code (languages) into machine language (binary) and reads entire program from machine language to executable code.
+Compiler uses C, C++, C#, Java, Fortan.
+Interpreter : It is a program reads the source code, translates and executes line by line on the go before moving to the next line.
+Interpreter uses python, ruby, Javascript. It is slower than compiler.
+Typescript is the superset of the Javascript.
+Javacript - Dynamically type language, Typescript - Statically type language - more capability than Javascript.
+Just like the above, AI is the superset of Deep learning. Machine learning and Deep Learning are the subsets of Artificial intelligence.
+Java components : JDK, JRE, JVM
+Java Development Kit : It is a software package. JDK consists of tools, utilities, libraries for developing Java applications. It consists of Java compiler. Eg: Javac, Javah, Jar etc.
+Java Compiler : It Compiles the Java source code (.java files) into byte code (.class files).This byte code can be executed by JRE and JVM. 
+Java runtime environment : It provides necessary runtime libraries. Libraries are pre-complied class and packages. Example : Class libraries, Java API, Linked list, stacks, queues, strings etc. It allows you to run the java program during development. JVM is a sub-set of JRE.
+Java Virtual Machine : It consists of Java interpreter which allows you to run Java programs during development and testing. It is a runtime engine or provides runtime enviroment to execute java byte code. It manages Class loader, byte code verifier ,JIT compiler, memory management, garbage collection etc. It is platform independent. The Java byte code which is platform independent,human readable is converted to machine code like 10,01,10,01...(hexadecimal) that corresponds to the CPU (hardware) - Low level interpretation of byte code.
+***************************************************************************************************************************************************************************
+Data Types: Int, Double. char, boolean, string etc
+Example of variable declaration :
+Public Class Main
+{
+ Public static void main(string args[]) {
+int age;
+double height;
+char grade;
+boolean isStudent;
+string name;
+}
+}
+-------------------------------------------------------
+By declaring the variables, we are doing memory allocation. The RAM consists of stack memory, Heap memory and Global memory.
+The above all are static declaration which means we cannot change the size in the runtime.
+
 
